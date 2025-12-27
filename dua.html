@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Selamat Ulang Tahun</title>
+ 
+   <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .card {
+            background: white;
+            padding: 35px;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+            max-width: 360px;
+            animation: fadeIn 2s ease;
+        }
+
+        h1 {
+            color: #e91e63;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .emoji {
+            font-size: 45px;
+            animation: pulse 1.2s infinite;
+        }
+
+        @keyframes pulse {
+            0%,100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+    
+</head>
+
+<body>
+
+<div class="card">
+    <div class="emoji">🎂😇</div>
+    <h1>Selamat Ulang Tahun Ke-18 Dea Laurensa Hutagalung</h1>
+    <p>
+        Di hari istimewa ini, semoga kamu selalu  
+        dikelilingi kebahagiaan, kasih, dan doa baik.  
+        Semoga panjang umur dan sehat selalu serta semua harapanmu menjadi nyata ✨
+    </p>
+    <p><b>Teruslah bersinar sebagai wanita luar biasa </b></p>
+    <h6>29 Desember 2007 s/d 29 Desember 2025</h6>
+</div>
+
+<!-- Lagu ulang tahun -->
+<audio>
+    <source src = "lagu-ulangtahun.mp3" type ="audio/mp3">
+</audio>
+
+</body>
+
+</html>
